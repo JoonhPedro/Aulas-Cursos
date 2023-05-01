@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box ;
+}
+header{
+    background-color: rgb(23, 104, 211);
+    margin-block-end: 10px;
+    height: 70px;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.logo{
+    margin: 18px;
+    font-weight: 800;
+    font-size: 25px;
+}
+
+.nav-itens{
+    list-style: none;
+    display: flex;
+}
+
+.nav-itens>li{
+    padding-left: 20px;
+}
+.nav-itens>li>a{
+    padding-left: 20px;
+    text-decoration: none;
+    color: aqua;
+}
+.login{
+    padding: 10px 30px;
+    font-size: 15px;
+    border: none;
+    border-radius: 8px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(23, 104, 211);
+    cursor: pointer;
+    transition: 0.4s ;
+}
+.login:hover{
+    background-color: rgb(13, 83, 175);
+    color:  rgb(255, 255, 255);
+    font-size: 14px;
+}
+.cadastro{
+    padding: 10px 30px;
+    font-size: 15px;
+    border: none;
+    border-radius: 8px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    cursor: pointer;
+    transition: 0.4s ;
+}
+.cadastro:hover{
+    background-color: rgb(13, 83, 175);
+    color: aliceblue;
+    font-size: 10px;
+   
+}
