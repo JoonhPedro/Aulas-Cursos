@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Grid</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            display: grid;
+            grid-template-columns: 3fr, 1fr;
+            grid-template-rows: 30vh 40vh 30vh;
+        }
+        header{
+            grid-column: 1/3;
+            grid-row: 1;
+            background-color: rgb(10, 178, 255);
+        }
+        main{
+            grid-column: 1/2;
+            grid-row: 2;
+            background-color: rgb(16, 43, 221);
+        }
+        aside{
+            grid-column: 2/3;
+            grid-row: 2;
+            background-color: brown;
+        }
+        footer{
+            grid-column: 1/3;
+            grid-row: 3;
+            background: black
+
+        }
+        nav{
+            display: flex;
+            justify-content: space-around;
+        }
+        ul {
+            display: flex;
+            list-style: none;
+        }
+       
+    </style>
+
+</head>
+<body>
+    <div class="container">
+        <header>
+            <nav>
+                <div> <h1>LOGO</h1></div>
+                <ul>
+                    <li>home
+                    <li>about</li>
+                    <li>contact</li>
+                </ul>
+            </nav>
+        </header>
+        <main></main>
+        <aside></aside>
+        <footer></footer>
+    </div>
+</body>
+</html>
