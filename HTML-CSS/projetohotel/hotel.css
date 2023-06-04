@@ -1,0 +1,214 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-shadow: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px 0px 0px;
+    background-color: rgb(255, 255, 255);
+    height: 80px;
+    align-items: center;
+}
+
+.logo {
+    font-size: 30px; 
+
+}
+#linhanavbar{
+    height: 0.2px;
+    width: 70px;
+    background-color: #f6ae2d;
+}
+.navbar>ul {
+   
+    display: flex;
+    list-style: none;
+    gap: 120px;
+    position: relative;
+    left: 100px;
+}
+.navbar > ul > li > a{
+    opacity: 0.5;
+    text-decoration: none;
+    color: black;
+}
+.navbar a:hover{
+    opacity: 10;
+    text-decoration: underline black 0.2px ;
+}
+
+.container {
+    margin: auto;
+}
+
+.capa {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 60px 0px 0px;
+}
+
+.capatexto {
+    position: relative;
+    top: 150px;
+    left: 80px;
+}
+
+.capatexto>h1 {
+    font-size: 40px;
+}
+
+#linha {
+    position: relative;
+    top: 15px;
+    border-bottom: 2px;
+    height: 2px;
+    width: 100px;
+    background-color: #f6ae2d;
+}
+
+.capatexto>p {
+    position: relative;
+    top: 40px;
+}
+
+.primeira-imagem {
+    position: relative;
+    right: 150px;
+    width: 570px;
+    height: 400px;
+}
+
+.conteudo-checkin {
+    position: relative;
+    left: 300px;
+    bottom: 50px;
+    background-color: #f7f7f7;
+    border-radius: 20px;
+    width: 900px;
+    height: 150px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+#checkin {
+    
+    height: 100px;
+}
+#checkin > h2{
+    position: relative;
+    top: 20px;
+    font-size: 12px;
+}
+#checkin > p{
+    position: relative;
+    top: 30px;
+}
+#checkout {
+    
+    height: 100px;
+}
+#checkout > h2{
+    position: relative;
+    top: 20px;
+    font-size: 12px;
+}
+#checkout > p{
+    position: relative;
+    top: 30px;
+}
+#person {
+    
+    height: 100px;
+}
+#person > h2{
+    position: relative;
+    top: 20px;
+    font-size: 12px;
+}
+#person > p{
+    position: relative;
+    top: 30px;
+}
+
+#sectionbutton {
+    background-color: #f6ae2d;
+    border-radius: 10px;
+    height: 50px;
+    width: 130px;
+}
+
+#button {
+    position: relative;
+    top: 15px;
+    left: 29px;
+}
+#button > a{
+    text-decoration: none;
+    color: #f7f7f7;
+}
+#sectionbutton:hover{
+    cursor: pointer;
+    transition: 0.5s;
+    background-color: #bd8826;
+}
+.sobreohotel{
+    
+    width: 1200px;
+    height: 346px;
+    margin: auto;
+    position: relative;
+    right: 65px;
+}
+.sobreohotel > h2{
+    position: relative;
+    left: 95px;
+    padding: 30px 30px 0px ;
+}
+.textos{
+    display: flex;
+    justify-content: space-evenly;
+}
+#sobretexto1{
+    padding: 30px;
+    text-align: justify;
+    width: 400px;
+}
+#sobretexto2{
+    padding: 30px;
+    text-align: justify;
+    width: 400px;
+}
+#sobretexto > #texto1 {
+    background-color: #f6ae2d;
+    width: 500px;
+    text-align: justify;
+}
+#sobretexto > #texto2 {
+    background-color: #f6ae2d;
+    width: 500px;
+    text-align: justify;
+}
+.imagembackground{
+    background-image: url(https://template-preview.com/free/rest-hotel/assets/img/section.jpg);
+    margin: auto;
+    height: 400px;
+    width: 1800px;
+}
+.conteudo-suits{
+    background-color: aquamarine;
+    margin: auto;
+    width: 1800px;
+    height: 800px;
+    margin-top: 100px;
+}
+#titulo-texto{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 30px;
+}
